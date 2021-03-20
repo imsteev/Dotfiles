@@ -1,5 +1,3 @@
 # dotfiles
 
-```
-source bash_profile
-```
+Starting to standardize my dev environment 🥲
