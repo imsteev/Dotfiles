@@ -1,10 +1,10 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/.yarn/bin:$PATH
+source ~/.bash_aliases
+
 export DENO_INSTALL="/Users/stephenchung/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
-export PATH=$HOME/.yarn/bin:$PATH
-
-source $ZSH/oh-my-zsh.sh
 
 fpath=(~/.zsh $fpath)
 autoload -Uz compinit
@@ -25,4 +25,5 @@ SPACESHIP_NODE_SHOW=false
 
 plugins=(git yarn docker docker-compose jsontools)
 
-source ~/.bash_aliases
+source $ZSH/oh-my-zsh.sh
+
